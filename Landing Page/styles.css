@@ -1,0 +1,32 @@
+
+body{
+  background-color: #456161;
+}
+.top-section {
+  display:flex; 
+
+}
+
+.left-section{
+  display: inline;
+  padding-left: 0;
+
+}
+#logo {
+  padding-right:50% ;
+  font-size: bold; 
+}
+#link{
+  margin-right: 20px;
+}
+.middle-section{
+  display: inline-flex;
+}
+#image {
+  padding: 10%;
+  background-color:rgb(228, 216, 240) ;
+}
+button{
+  background-color: blue;
+  
+}
