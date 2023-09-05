@@ -1,0 +1,30 @@
+    /* Styles for the top navigation bar */
+    .top-nav {
+      background-color: #3498db;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    .top-nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+    }
+
+    /* Styles for the left and right side links */
+    .left-link {
+      float: left;
+      margin-left: 20px;
+    }
+
+    .right-links {
+      float: right;
+      margin-right: 20px;
+    }
+
+    /* Clear the float for proper alignment */
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
