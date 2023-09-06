@@ -1,54 +1,49 @@
-
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
   background-color: #186fc0;
 }
 .top-section {
-  display:flex; 
-background-color: #42a5f5;
-padding:  30px;
+  display: flex;
+  background-color: #42a5f5;
+  padding: 30px;
 }
-.middle-section{
+.middle-section {
   display: inline-flex;
 }
 
-
-
-
-.left-part{
+.left-part {
   display: inline;
   padding-left: 0;
-
 }
 #logo {
-  padding-right:50% ;
-  font-size: bold; 
+  padding-right: 50%;
+  font-size: bold;
 }
-#link{
+#link {
   margin-right: 20px;
 }
 
 #image {
-  padding: 10%;
+  margin: 50px;
+  margin-left: 100px;
+  padding: 150PX;
   background-color: #b1a79e;
-  width: 80px;
-  height: 80px;
+ 
 }
-.button{
+.button {
   display: inline-block;
+  clip-path: 0;
 }
-button{
-
-   background-color: transparent;
+button {
+  background-color: transparent;
   color: #3498db;
   padding: 10px 20px;
   border: 2px solid #3498db;
   border-radius: 5px;
   cursor: pointer;
   transition: color 0.3s ease, border-color 0.3s ease;
-  
 }
-button:hover{
+button:hover {
   color: #2980b9;
   border-color: #2980b9;
 }
@@ -80,22 +75,43 @@ button:hover{
 }
 
 .button-rounded {
-  
-    background-color: #e74c3c;
-    color: #fff;
-    width: 70px;
-    height: 70px;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    text-decoration: solid;
-    font-size: 18px;
-  }
-  .button-rounded:hover {
-    background-color: #c0392b;
-  }
+  background-color: #e74c3c;
+  color: #fff;
+  width: 70px;
+  height: 70px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: solid;
+  font-size: 18px;
+}
+.button-rounded:hover {
+  background-color: #c0392b;
+}
 
+.middle-division {
+  display: inline-flex;
+  background-color: aliceblue;
+}
+.square {
+  margin: 50px;
+  border-radius: 10%;
+  background-color: transparent;
+  border-color: #c0392b;
+  border: 2px solid #3b82f6;
+  height: 100px;
+  width: 100px;
+}
+.cubeText {
+  display: flexbox;
+  margin: 50px;
+}
+#h1center {
+  position: absolute;
+  margin-left: 40%;
+  
+}
