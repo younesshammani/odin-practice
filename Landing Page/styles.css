@@ -5,7 +5,7 @@
 body {
   
   font-family: "Roboto", sans-serif;
-  background-color: #186fc0;
+  background-color: #d5dadf;
 }
 .top-section {
   display: flex;
@@ -140,4 +140,20 @@ button:hover {
   bottom: 0;
   right: 0;
   font-weight: bold;
+}
+.last-division{
+  
+  padding: 40px;
+  color: #eee6e6;
+  position: relative;
+  margin: 50px;
+  background-color: #42a5f5;
+}
+#signUpBTN{
+  position: absolute;
+  top: 0;
+  right: 0;
+ margin:70px ;
+  color: #f5eeee;
+  border: 4px solid #fff;
 }
